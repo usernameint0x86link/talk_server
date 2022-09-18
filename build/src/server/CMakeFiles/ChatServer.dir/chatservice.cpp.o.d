@@ -196,6 +196,8 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/c++/7/bits/mask_array.h \
  /usr/include/c++/7/bits/indirect_array.h /usr/include/c++/7/cstring \
  /usr/include/string.h /usr/include/strings.h \
+ /home/link/talk_server/include/server/usermodel.h \
+ /home/link/talk_server/include/server/user.h \
  /usr/include/muduo/net/TcpConnection.h \
  /usr/include/muduo/base/noncopyable.h \
  /usr/include/muduo/base/StringPiece.h /usr/include/muduo/base/Types.h \

@@ -11,6 +11,7 @@ class MySQL {
   bool connect(void);
   bool update(std::string sql);
   MYSQL_RES *query(std::string sql);
+  MYSQL* get_connection(void);
 
  private:
   MYSQL *m_conn;

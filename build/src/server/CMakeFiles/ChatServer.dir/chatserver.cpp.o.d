@@ -277,4 +277,6 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /usr/include/c++/7/bits/valarray_after.h \
  /usr/include/c++/7/bits/gslice.h /usr/include/c++/7/bits/gslice_array.h \
  /usr/include/c++/7/bits/mask_array.h \
- /usr/include/c++/7/bits/indirect_array.h /usr/include/c++/7/iostream
+ /usr/include/c++/7/bits/indirect_array.h \
+ /home/link/talk_server/include/server/usermodel.h \
+ /home/link/talk_server/include/server/user.h /usr/include/c++/7/iostream
