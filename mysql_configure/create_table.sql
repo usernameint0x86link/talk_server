@@ -10,3 +10,30 @@ create table if not exists user(
 	PRIMARY KEY(`id`),
 	UNIQUE KEY(`name`)
 ) default charset=utf8;
+
+create table if not exists friend(
+	`userid` int NOT NULL,
+	`friendid` int NOT NULL,
+	PRIMARY KEY(`userid`, `friendid`)
+) default charset=utf8;
+
+create table if not exists allgroup(
+	`id` int AUTO_INCREMENT,
+	`groupname` varchar(50) NOT NULL,
+	`groupdesc` varchar(200) default '',
+	PRIMARY KEY(`id`),
+	UNIQUE KEY(`groupname`)
+) default charset=utf8;
+
+create table if not exists groupuser(
+	`groupid` int NOT NULL,
+	`userid` int NOT NULL,
+	`grouprole` enum('creator', 'normal') default 'normal',
+	PRIMARY KEY(`groupid`, `userid`)
+) default charset=utf8;
+
+
+create table if not exists offlinemessage(
+	`userid` int NOT NULL,
+	`message` varchar(500) NOT NULL
+) default charset=utf8;

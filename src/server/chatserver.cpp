@@ -32,16 +32,15 @@ void ChatServer::onConnection(const TcpConnectionPtr &conn)
     // user shutdown link
     if (!conn->connected())
     { 
-        // conn->shutdown();
+        ChatService::instance()->client_close_exception(conn);
+        conn->shutdown();
     }
-    std::cout << "连接上了" << std::endl;
-
-
+    // std::cout << "连接上了" << std::endl;
 }
 // 上报读写事件相关信息的回调函数 
 void ChatServer::onMessage(const TcpConnectionPtr &conn, Buffer *buffer, Timestamp time)
 {
-    std::cout << "haneler" << std::endl;
+    // std::cout << "haneler" << std::endl;
     std::string buf = buffer->retrieveAllAsString();
 
     std::cout << buf << std::endl;

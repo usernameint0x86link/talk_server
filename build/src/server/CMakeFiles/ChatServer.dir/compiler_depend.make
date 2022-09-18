@@ -349,6 +349,12 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: /home/link/talk_server/sr
   /usr/include/c++/7/bits/indirect_array.h \
   /home/link/talk_server/include/server/usermodel.h \
   /home/link/talk_server/include/server/user.h \
+  /usr/include/c++/7/mutex \
+  /usr/include/c++/7/chrono \
+  /usr/include/c++/7/ratio \
+  /usr/include/c++/7/ctime \
+  /usr/include/c++/7/bits/parse_numbers.h \
+  /usr/include/c++/7/bits/std_mutex.h \
   /usr/include/c++/7/iostream
 
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: /home/link/talk_server/src/server/chatservice.cpp \
@@ -691,6 +697,12 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: /home/link/talk_server/s
   /usr/local/include/boost/utility/enable_if.hpp \
   /usr/local/include/boost/core/enable_if.hpp \
   /usr/local/include/boost/type_traits/is_same.hpp \
+  /usr/include/c++/7/mutex \
+  /usr/include/c++/7/chrono \
+  /usr/include/c++/7/ratio \
+  /usr/include/c++/7/ctime \
+  /usr/include/c++/7/bits/parse_numbers.h \
+  /usr/include/c++/7/bits/std_mutex.h \
   /home/link/talk_server/include/public.h \
   /usr/include/muduo/base/Logging.h \
   /usr/include/muduo/base/LogStream.h
@@ -1422,8 +1434,6 @@ src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: /home/link/talk_server/src
 
 /usr/include/mysql/errmsg.h:
 
-/usr/include/mysql/mysql_time.h:
-
 /usr/include/mysql/plugin_auth_common.h:
 
 /usr/include/c++/7/stdlib.h:
@@ -1445,6 +1455,12 @@ src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: /home/link/talk_server/src
 /home/link/talk_server/src/server/chatservice.cpp:
 
 /usr/include/c++/7/iostream:
+
+/usr/include/c++/7/ctime:
+
+/usr/include/mysql/mysql_time.h:
+
+/usr/include/c++/7/mutex:
 
 /home/link/talk_server/include/server/user.h:
 
@@ -1524,6 +1540,8 @@ src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: /home/link/talk_server/src
 
 /usr/local/include/boost/current_function.hpp:
 
+/usr/include/c++/7/ratio:
+
 /usr/local/include/boost/exception/exception.hpp:
 
 /usr/local/include/boost/throw_exception.hpp:
@@ -1549,6 +1567,8 @@ src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: /home/link/talk_server/src
 /usr/include/linux/stddef.h:
 
 /usr/include/linux/posix_types.h:
+
+/usr/include/c++/7/bits/parse_numbers.h:
 
 /usr/include/c++/7/cstdlib:
 
@@ -1599,6 +1619,8 @@ src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: /home/link/talk_server/src
 /usr/include/c++/7/bits/range_access.h:
 
 /usr/include/c++/7/ext/aligned_buffer.h:
+
+/usr/include/c++/7/chrono:
 
 /usr/include/muduo/base/Mutex.h:
 
@@ -1993,6 +2015,8 @@ src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: /home/link/talk_server/src
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/7/bits/std_mutex.h:
 
 /usr/include/muduo/base/Types.h:
 

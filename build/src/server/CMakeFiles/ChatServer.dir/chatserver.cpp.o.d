@@ -279,4 +279,7 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /usr/include/c++/7/bits/mask_array.h \
  /usr/include/c++/7/bits/indirect_array.h \
  /home/link/talk_server/include/server/usermodel.h \
- /home/link/talk_server/include/server/user.h /usr/include/c++/7/iostream
+ /home/link/talk_server/include/server/user.h /usr/include/c++/7/mutex \
+ /usr/include/c++/7/chrono /usr/include/c++/7/ratio \
+ /usr/include/c++/7/ctime /usr/include/c++/7/bits/parse_numbers.h \
+ /usr/include/c++/7/bits/std_mutex.h /usr/include/c++/7/iostream

@@ -61,6 +61,7 @@ MYSQL_RES* MySQL::query(std::string sql)
     return mysql_use_result(m_conn);
 }
 
+// 获取连接
 MYSQL* MySQL::get_connection(void)
 {
     return m_conn;
