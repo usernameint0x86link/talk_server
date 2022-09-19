@@ -1,6 +1,7 @@
 #include "chatservice.h"
 #include "public.h"
 
+#include <vector>
 #include <functional>
 #include <muduo/base/Logging.h>
 
@@ -11,6 +12,11 @@ ChatService* ChatService::instance(void)
 {
     static ChatService service;
     return &service;
+}
+
+void ChatService::reset(void)
+{
+    m_user_model.reset_state();
 }
 
 // 注册消息以及对应的Handler回调操作
@@ -57,6 +63,14 @@ void ChatService::login(const muduo::net::TcpConnectionPtr &conn, \
         response["errno"] = 0;
         response["id"] = user.get_id();
         response["name"] = user.get_name();
+
+        // 查询该用户是否有离线消息
+        std::vector<std::string> vec = m_offline_msg_model.query(id);
+        if (vec.size() > 0)
+        { 
+            response["offlinemsg"] = vec; 
+            m_offline_msg_model.remove(id);
+        }
         conn->send(response.dump());
     }
     else // 该用户不存在OR用户存在但密码错误，登录失败
@@ -124,7 +138,7 @@ void ChatService::client_close_exception(const muduo::net::TcpConnectionPtr &con
             }
         }
     }
-
+    
     if (user.get_id() != -1)
     {
         user.set_state("offline");
@@ -146,4 +160,7 @@ void ChatService::oneChat(const muduo::net::TcpConnectionPtr &conn, \
             return;
         }
     }
+
+    // toid不在线，存储离线消息
+    m_offline_msg_model.insert(toid, js.dump());
 }

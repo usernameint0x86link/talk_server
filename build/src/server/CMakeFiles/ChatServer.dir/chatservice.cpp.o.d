@@ -198,6 +198,7 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/string.h /usr/include/strings.h \
  /home/link/talk_server/include/server/usermodel.h \
  /home/link/talk_server/include/server/user.h \
+ /home/link/talk_server/include/server/offlinemessagemodel.h \
  /usr/include/muduo/net/TcpConnection.h \
  /usr/include/muduo/base/noncopyable.h \
  /usr/include/muduo/base/StringPiece.h /usr/include/muduo/base/Types.h \

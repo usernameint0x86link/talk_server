@@ -250,6 +250,40 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: \
  /usr/include/muduo/net/EventLoop.h /usr/include/c++/7/atomic \
  /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
  /usr/include/muduo/net/TimerId.h \
+ /home/link/talk_server/include/server/chatservice.h \
+ /home/link/talk_server/thirdparty/json.hpp /usr/include/c++/7/cassert \
+ /usr/include/c++/7/ciso646 /usr/include/c++/7/numeric \
+ /usr/include/c++/7/bits/stl_numeric.h /usr/include/c++/7/forward_list \
+ /usr/include/c++/7/bits/forward_list.h \
+ /usr/include/c++/7/bits/forward_list.tcc \
+ /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
+ /usr/include/c++/7/bits/hashtable_policy.h \
+ /usr/include/c++/7/bits/unordered_map.h /usr/include/c++/7/valarray \
+ /usr/include/c++/7/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/7/bits/valarray_array.h \
+ /usr/include/c++/7/bits/valarray_array.tcc \
+ /usr/include/c++/7/bits/valarray_before.h \
+ /usr/include/c++/7/bits/slice_array.h \
+ /usr/include/c++/7/bits/valarray_after.h \
+ /usr/include/c++/7/bits/gslice.h /usr/include/c++/7/bits/gslice_array.h \
+ /usr/include/c++/7/bits/mask_array.h \
+ /usr/include/c++/7/bits/indirect_array.h \
+ /home/link/talk_server/include/server/usermodel.h \
+ /home/link/talk_server/include/server/user.h \
+ /home/link/talk_server/include/server/offlinemessagemodel.h \
+ /usr/include/c++/7/mutex /usr/include/c++/7/chrono \
+ /usr/include/c++/7/ratio /usr/include/c++/7/ctime \
+ /usr/include/c++/7/bits/parse_numbers.h \
+ /usr/include/c++/7/bits/std_mutex.h \
  /home/link/talk_server/include/server/db/db.h /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
@@ -259,4 +293,26 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: \
  /usr/include/mysql/client_plugin.h /usr/include/c++/7/stdlib.h \
  /usr/include/mysql/plugin_auth_common.h \
  /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
- /usr/include/mysql/errmsg.h /usr/include/c++/7/iostream
+ /usr/include/mysql/errmsg.h /usr/include/c++/7/iostream \
+ /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+ /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/signal_ext.h

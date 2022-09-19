@@ -2,7 +2,9 @@
 #define __CHATSERVICE_H__
 
 #include "json.hpp"
+
 #include "usermodel.h"
+#include "offlinemessagemodel.h"
 
 #include <muduo/net/TcpConnection.h>
 #include <unordered_map>
@@ -29,6 +31,8 @@ public:
 
     // 处理客户端异常退出
     void client_close_exception(const muduo::net::TcpConnectionPtr &conn);
+    // 服务器异常退出，业务重置方法
+    void reset(void);
     // 获取消息对应的处理器
     MsgHandler get_handler(int msgid);
 private:
@@ -40,6 +44,7 @@ private:
     std::mutex m_conn_mutex;
 
     UserModel m_user_model;
+    OfflineMsgModel m_offline_msg_model;
 };
 
 #endif

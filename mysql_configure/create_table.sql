@@ -35,5 +35,6 @@ create table if not exists groupuser(
 
 create table if not exists offlinemessage(
 	`userid` int NOT NULL,
-	`message` varchar(500) NOT NULL
+	`message` varchar(500) NOT NULL,
+	PRIMARY KEY(`userid`)
 ) default charset=utf8;
