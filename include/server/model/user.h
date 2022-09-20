@@ -32,7 +32,7 @@ public:
     { return m_password; }
     std::string get_state(void) const
     { return m_state; }
-private:
+protected:
     int m_id;
     std::string m_name;
     std::string m_password;

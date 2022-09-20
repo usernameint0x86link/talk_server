@@ -1,8 +1,9 @@
 src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o: \
  /home/link/talk_server/src/server/usermodel.cpp \
  /usr/include/stdc-predef.h \
- /home/link/talk_server/include/server/usermodel.h \
- /home/link/talk_server/include/server/user.h /usr/include/c++/7/string \
+ /home/link/talk_server/include/server/model/usermodel.h \
+ /home/link/talk_server/include/server/model/user.h \
+ /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

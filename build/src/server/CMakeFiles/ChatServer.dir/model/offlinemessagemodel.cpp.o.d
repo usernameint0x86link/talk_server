@@ -1,7 +1,7 @@
 src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o: \
  /home/link/talk_server/src/server/model/offlinemessagemodel.cpp \
  /usr/include/stdc-predef.h \
- /home/link/talk_server/include/server/offlinemessagemodel.h \
+ /home/link/talk_server/include/server/model/offlinemessagemodel.h \
  /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

@@ -251,14 +251,18 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: \
  /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
  /usr/include/muduo/net/TimerId.h \
  /home/link/talk_server/include/server/chatservice.h \
+ /usr/include/c++/7/mutex /usr/include/c++/7/chrono \
+ /usr/include/c++/7/ratio /usr/include/c++/7/ctime \
+ /usr/include/c++/7/bits/parse_numbers.h \
+ /usr/include/c++/7/bits/std_mutex.h /usr/include/c++/7/unordered_map \
+ /usr/include/c++/7/bits/hashtable.h \
+ /usr/include/c++/7/bits/hashtable_policy.h \
+ /usr/include/c++/7/bits/unordered_map.h \
  /home/link/talk_server/thirdparty/json.hpp /usr/include/c++/7/cassert \
  /usr/include/c++/7/ciso646 /usr/include/c++/7/numeric \
  /usr/include/c++/7/bits/stl_numeric.h /usr/include/c++/7/forward_list \
  /usr/include/c++/7/bits/forward_list.h \
- /usr/include/c++/7/bits/forward_list.tcc \
- /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
- /usr/include/c++/7/bits/hashtable_policy.h \
- /usr/include/c++/7/bits/unordered_map.h /usr/include/c++/7/valarray \
+ /usr/include/c++/7/bits/forward_list.tcc /usr/include/c++/7/valarray \
  /usr/include/c++/7/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -277,13 +281,10 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: \
  /usr/include/c++/7/bits/gslice.h /usr/include/c++/7/bits/gslice_array.h \
  /usr/include/c++/7/bits/mask_array.h \
  /usr/include/c++/7/bits/indirect_array.h \
- /home/link/talk_server/include/server/usermodel.h \
- /home/link/talk_server/include/server/user.h \
- /home/link/talk_server/include/server/offlinemessagemodel.h \
- /usr/include/c++/7/mutex /usr/include/c++/7/chrono \
- /usr/include/c++/7/ratio /usr/include/c++/7/ctime \
- /usr/include/c++/7/bits/parse_numbers.h \
- /usr/include/c++/7/bits/std_mutex.h \
+ /home/link/talk_server/include/server/model/offlinemessagemodel.h \
+ /home/link/talk_server/include/server/model/usermodel.h \
+ /home/link/talk_server/include/server/model/user.h \
+ /home/link/talk_server/include/server/model/friendmodel.h \
  /home/link/talk_server/include/server/db/db.h /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
