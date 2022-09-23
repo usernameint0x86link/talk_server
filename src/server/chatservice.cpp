@@ -48,7 +48,16 @@ ChatService::ChatService(void) {
 
 void ChatService::login_out(const muduo::net::TcpConnectionPtr &conn, nlohmann::json &js, muduo::Timestamp timestamp)
 {
+  int user_id = js["id"].get<int>();
+  {
+    std::lock_guard<std::mutex> lock(m_conn_mutex);
+    auto it = m_user_conn_map.find(user_id);
+    if (it != m_user_conn_map.end())
+    { m_user_conn_map.erase(it);}
+  }
 
+  User user(user_id, "", "", "offline");
+  m_user_model.update_state(user);
 }
 
 // 处理登录业务 id  pwd

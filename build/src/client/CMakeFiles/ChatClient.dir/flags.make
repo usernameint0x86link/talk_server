@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/link/talk_server/include -I/home/link/talk_server/include/server -I/home/link/talk_server/include/server/db -I/home/link/talk_server/include/server/model -I/home/link/talk_server/thirdparty
+CXX_INCLUDES = -I/home/link/talk_server/include -I/home/link/talk_server/include/server -I/home/link/talk_server/include/server/db -I/home/link/talk_server/include/server/model -I/home/link/talk_server/thirdparty -I/home/link/talk_server/redis
 
 CXX_FLAGS =  -g -std=c++11
 
